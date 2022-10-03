@@ -49,7 +49,11 @@ Request ID: guEmXv0CArca418t9mv9l9eP5njJHFE858ba3AlYlA-wnZmFyRv37g==
 
 ## How to test
 
-### 1. Setup
+### 1. Prerequests
+
+- [Node.js](https://nodejs.org/ja/download/)
+
+### 2. Setup
 
 ```
 git clone https://github.com/suzukiplan/cc-inquiry-2022-10-03.git
@@ -57,11 +61,11 @@ cd cc-inquiry-2022-10-03
 npm install 
 ``` 
 
-### 2. Edit
+### 3. Edit
 
 [test.ts](test.ts) にアクセスキーとシークレットアクセスキーを入力
 
-### 3. Execute
+### 4. Execute
 
 ```
 npm start
