@@ -340,12 +340,12 @@ class CoinCheck {
     /**
      * 送金ログを取得
      */
-     getSendMoneyLog(): Promise<SendMoneyLog> { return this.apiRequest('/send_money', 'GET', {currency: "BTC"}) }
+     getSendMoneyLog(): Promise<SendMoneyLog> { return this.apiRequest('/send_money?currency=BTC') }
 
     /**
      * 受け取りログを取得
      */
-     getDepositMoneyLog(): Promise<DepositMoneyLog> { return this.apiRequest('/deposit_money', 'GET', {currency: "BTC"}) }
+     getDepositMoneyLog(): Promise<DepositMoneyLog> { return this.apiRequest('/deposit_money?currency=BTC') }
 }
 
 export { CoinCheck, CoinCheckError }
