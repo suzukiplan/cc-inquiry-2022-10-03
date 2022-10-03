@@ -53,7 +53,7 @@ Request ID: guEmXv0CArca418t9mv9l9eP5njJHFE858ba3AlYlA-wnZmFyRv37g==
 
 ```
 git clone https://github.com/suzukiplan/cc-inquiry-2022-10-03.git
-cd cc-inquiry-2022-10-03.git
+cd cc-inquiry-2022-10-03
 npm install 
 ``` 
 
